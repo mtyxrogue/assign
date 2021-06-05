@@ -14,6 +14,8 @@ corr=rr.corr()
 st.write(corr)
 s=sns.heatmap(corr)
 st.pyplot()
+st.set_option('deprecation.showPyplotGlobalUse', False)
+st.set_option('deprecation.showPyplotGlobalUse', False)
 st.line_chart(data=corr)
 
 
